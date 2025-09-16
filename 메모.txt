@@ -1,0 +1,147 @@
+부정일 땐 치료/완화, 긍정일 땐 유지/접지
+
+
+ChatGPT의 예시 문구
+
+불안/스트레스(고각성·부정)
+
+    발표가 코앞이라 손에 땀이 난다. 심장이 좀 빨리 뛰어.
+    === Emotion ===
+    {'primary': '긴장', 'valence': -0.5, 'arousal': 0.8, 'confidence': 0.9, 'reasons': '발표를 앞두고 긴장감과 불안감이 느껴짐.'}
+
+    === Music Brief ===
+    {'mood': 'calming', 'bpm': 80, 'key': 'A minor', 'duration_sec': 84, 'instruments': ['warm piano', 'soft pad', 'light percussion'], 'style_tags': ['calming', 'ambient', 'minimal', 'regulate:soothe'], 'prompt': 'A gentle blend of warm piano and soft pads creates a calming atmosphere, easing the tension and heartbeat before an important moment.'}
+    
+    지하철 놓칠까 봐 뛰었더니 가슴이 쿵쾅, 살짝 조급해.
+    === Emotion ===
+    {'primary': '조급함', 'valence': -0.5, 'arousal': 0.7, 'confidence': 0.8, 'reasons': '지하철을 놓칠까 봐 뛰면서 느끼는 긴장감과 불안감에서 오는 조급함.'}
+
+    === Music Brief ===
+    {'mood': 'calming', 'bpm': 80, 'key': 'D minor', 'duration_sec': 85, 'instruments': ['warm piano', 'soft pad', 'light percussion'], 'style_tags': ['calming', 'ambient', 'minimal', 'regulate:soothe'], 'prompt': 'A gentle piano melody with soft pads creates a calming atmosphere, easing the feeling of urgency and grounding the listener.'}
+
+    오늘 면접 생각만 하면 속이 살짝 뒤집혀. 그래도 버텨볼게.
+    === Emotion ===
+    {'primary': '긴장', 'valence': -0.5, 'arousal': 0.7, 'confidence': 0.8, 'reasons': '면접에 대한 불안감과 긴장감이 느껴짐.'}
+
+    === Music Brief ===
+    {'mood': 'calming', 'bpm': 80, 'key': 'A minor', 'duration_sec': 85, 'instruments': ['warm piano', 'soft pad', 'light percussion'], 'style_tags': ['calming', 'ambient', 'minimal', 'regulate:soothe'], 'prompt': 'A gentle blend of warm piano and soft pads creates a soothing atmosphere, helping to ease tension before an important moment.'}
+
+
+우울/무기력(저각성·부정)
+
+    아무것도 하기 싫고 몸에 모래주머니 단 느낌이야.
+    === Emotion ===
+    {'primary': '무기력', 'valence': -0.5, 'arousal': 0.3, 'confidence': 0.8, 'reasons': '몸이 무겁고 아무것도 하고 싶지 않은 상태를 표현함.'}
+
+    === Music Brief ===
+    {'mood': 'melancholic', 'bpm': 78, 'key': 'A minor', 'duration_sec': 84, 'instruments': ['warm piano', 'soft pad'], 'style_tags': ['calming', 'ambient', 'minimal', 'regulate:soothe'], 'prompt': 'A gentle, soothing soundscape with soft piano and warm pads, evoking feelings of heaviness and tranquility.'}
+
+    비가 오니 마음이 축축해져. 기운이 잘 안 난다.
+    === Emotion ===
+    {'primary': '우울', 'valence': -0.6, 'arousal': 0.3, 'confidence': 0.8, 'reasons': '비로 인한 기분 저하와 에너지 부족을 표현함.'}
+
+    === Music Brief ===
+    {'mood': 'sad', 'bpm': 80, 'key': 'A minor', 'duration_sec': 85, 'instruments': ['warm piano', 'soft pad', 'gentle strings'], 'style_tags': ['calming', 'ambient', 'regulate:uplift'], 'prompt': 'A gentle melody unfolds with soft piano and warm strings, creating a soothing atmosphere that lifts the spirits on a rainy day.'}
+
+    자꾸 한숨만 나온다. 속도가 안 붙어.
+    === Emotion ===
+    {'primary': '답답함', 'valence': -0.5, 'arousal': 0.6, 'confidence': 0.8, 'reasons': '한숨과 속도가 안 붙는다는 표현에서 느껴지는 감정.'}
+
+    === Music Brief ===
+    {'mood': 'calming', 'bpm': 80, 'key': 'A minor', 'duration_sec': 84, 'instruments': ['warm piano', 'soft pad', 'light percussion'], 'style_tags': ['calming', 'ambient', 'minimal', 'regulate:soothe'], 'prompt': 'A gentle, warm piano melody with soft pads creates a soothing atmosphere, easing feelings of frustration and helping to find peace.'}
+
+
+분노/짜증(중~고각성·부정)
+
+    사소한 말에 욱했어. 얼굴이 달아오르네.
+    === Emotion ===
+    {'primary': '화남', 'valence': -0.6, 'arousal': 0.7, 'confidence': 0.8, 'reasons': '사소한 말에 욱하는 감정과 얼굴이 달아오르는 신체적 반응에서 유추됨.'}
+
+    === Music Brief ===
+    {'mood': 'calming', 'bpm': 80, 'key': 'A minor', 'duration_sec': 85, 'instruments': ['warm piano', 'soft pad', 'light percussion'], 'style_tags': ['calming', 'ambient', 'regulate:soothe'], 'prompt': 'A gentle blend of warm piano and soft textures provides a calming atmosphere, easing the intensity of heated moments.'}
+
+    교통 체증에 갇혔더니 짜증이 치밀어 올라.
+    === Emotion ===
+    {'primary': '짜증', 'valence': -0.6, 'arousal': 0.7, 'confidence': 0.8, 'reasons': '교통 체증으로 인한 불편함과 스트레스에서 오는 감정'}
+
+    === Music Brief ===
+    {'mood': 'frustrated', 'bpm': 80, 'key': 'A minor', 'duration_sec': 85, 'instruments': ['warm piano', 'soft pad', 'light percussion'], 'style_tags': ['calming', 'ambient', 'regulate:soothe'], 'prompt': "A gentle piano and soft pad create a calming atmosphere, easing frustration and bringing a sense of peace amidst life's congestion."}
+
+    메신저 알림이 쉴 새 없이 와서 머리가 지끈거려.
+    === Emotion ===
+    {'primary': '스트레스', 'valence': -0.6, 'arousal': 0.7, 'confidence': 0.8, 'reasons': '메신저 알림으로 인한 불편함과 두통을 표현.'}
+
+    === Music Brief ===
+    {'mood': 'calming', 'bpm': 80, 'key': 'D minor', 'duration_sec': 85, 'instruments': ['warm piano', 'soft pad', 'light percussion'], 'style_tags': ['calming', 'ambient', 'minimal', 'regulate:soothe'], 'prompt': 'A gentle blend of warm piano and soft pads, creating a soothing atmosphere to ease the stress from overwhelming notifications.'}
+
+
+평온/집중(저~중각성·긍정)
+
+    창가에 앉으니 마음이 잔잔해. 호흡이 길어진다.
+    === Emotion ===
+    {'primary': '평온', 'valence': 0.8, 'arousal': 0.3, 'confidence': 0.9, 'reasons': '창가에 앉아 마음이 잔잔해지고 호흡이 길어진다는 표현은 안정감과 평온함을 나타냅니다.'}
+
+    === Music Brief ===
+    {'mood': 'calm', 'bpm': 80, 'key': 'C major', 'duration_sec': 75, 'instruments': ['warm piano', 'soft pad'], 'style_tags': ['calming', 'ambient', 'regulate:sustain'], 'prompt': 'Sitting by the window, a serene atmosphere unfolds, with gentle piano and soft textures guiding the breath.'}
+
+    오늘은 흐름이 좋아. 조용히 몰입을 이어가고 싶어.
+    === Emotion ===
+    {'primary': '몰입', 'valence': 0.8, 'arousal': 0.6, 'confidence': 0.9, 'reasons': '긍정적인 흐름과 집중을 원함'}
+
+    === Music Brief ===
+    {'mood': 'focused', 'bpm': 90, 'key': 'C', 'duration_sec': 78, 'instruments': ['warm piano', 'soft pad', 'strings'], 'style_tags': ['calming', 'ambient', 'regulate:sustain'], 'prompt': 'A gentle blend of warm piano and soft strings creates a serene atmosphere, perfect for maintaining calm focus and flow.'}
+
+    차 한 잔 마시고 느긋하게 정리 모드로 들어가고 싶다.
+    === Emotion ===
+    {'primary': '편안함', 'valence': 0.8, 'arousal': 0.3, 'confidence': 0.9, 'reasons': '차를 마시며 느긋하게 정리하고 싶다는 표현에서 편안한 감정이 드러남.'}
+
+    === Music Brief ===
+    {'mood': 'calming', 'bpm': 80, 'key': 'C major', 'duration_sec': 75, 'instruments': ['warm piano', 'soft pad', 'light percussion'], 'style_tags': ['calming', 'ambient', 'minimal', 'regulate:sustain'], 'prompt': 'A warm piano gently flows with soft pads, creating a serene ambiance for a relaxed and organized mindset.'}
+
+
+설렘/기대(중~고각성·긍정)
+    내일 여행 생각에 배가 간질간질, 가볍게 들뜬다.
+    좋은 소식 듣고 심장이 두근두근, 미소가 자꾸 나와.
+    새 프로젝트를 시작하려니 손이 먼저 움직여. 신난다.
+
+
+활력/추진(고각성·긍정)
+    시험에 합격해서 하루 종일 들떠. 발걸음이 저절로 빨라져.
+    카페인 제대로 올랐어. 키보드가 손에 착 붙는다.
+    집안일 후다닥 끝내고 경쾌하게 밀어붙이고 싶다.
+
+
+지루함/멍함(저각성·중립)
+    머리가 흐릿하고 집중이 안 돼. 천천히 시동 걸고 싶어.
+    할 일은 많은데 마음이 멍—하니 둥둥 떠다닌다.
+    시계만 자꾸 보게 돼. 리듬이 필요해.
+
+
+불안+희망 섞임(고각성·혼합)
+    발표 전이라 긴장되지만, 묘하게 기대도 된다.
+    낯선 자리라 어색한데 잘 해내고 싶다는 마음이 커.
+    초면 모임이라 심장이 뛰지만, 좋은 인연을 만나고 싶어.
+
+
+피곤/번아웃(저각성·부정)
+    머리가 무겁고 눈꺼풀이 축 처진다.
+    과로했는지 몸이 푹 꺼진 느낌, 쉬운 일부터 다시 걸어가고 싶어.
+    생각이 많아 에너지가 빠졌다. 조용히 회복하고 싶다.
+
+
+감사/따뜻함(저~중각성·긍정)
+    친구가 챙겨줘서 마음이 포근해졌다.
+    가족 생각하니 가슴이 따뜻해. 미소가 번진다.
+    산책하다가 지나가는 바람에 마음이 말랑말랑해졌어.
+
+
+설레는 긴장(중각성·긍정)
+    첫 데이트라 긴장되지만 설렘이 더 커.
+    새 학기 첫날, 배 속에 나비가 날아다니는 기분이야.
+    무대 뒤에서 손이 조금 떨리는데, 즐거운 떨림이야.
+
+
+접지/안정 원함(조절 힌트)
+    기분은 좋은데 속도가 너무 붙는 것 같아. 살짝 눌러 잡고 싶어.
+    들떠 있지만 너무 요란하진 않게, 부드럽게 가고 싶다.
+    마음이 앞서가니 호흡을 맞추며 안정적으로 이어가고 싶어.
