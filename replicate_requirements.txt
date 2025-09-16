@@ -1,0 +1,11 @@
+pip install replicate soundfile requests
+
+0) 설치 (한 번만)
+pip install langgraph langchain-openai pydantic python-dotenv replicate soundfile requests typing_extensions
+# (선택) 그래프 ASCII 출력 원하면:
+pip install grandalf
+
+
+1) .env 만들기
+OPENAI_API_KEY=sk_여기에_키
+REPLICATE_API_TOKEN=r8_여기에_키

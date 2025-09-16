@@ -1,0 +1,40 @@
+<< poetry 셋팅(설치) >>
+파워쉘 => (Invoke-WebRequest -Uri https://install.python-poetry.org/ -UseBasicParsing).Content | python -
+
+기존 설치 삭제 시
+파워쉘 => (Invoke-WebRequest -Uri https://install.python-poetry.org/ -UseBasicParsing).Content | python - --uninstall
+
+환경변수 path 설정 => (시스템) 정보 > 고급 시스템 설정 > 환경 변수 > 시스템 변수 > 변수 이름이 Path 찾아 더블 클릭 > 새로 만들기 하여 아래 추가
+%APPDATA%\Python\Scripts
+
+파워쉘 다시 켜서 poetry --version로 버전 확인
+
+프로젝트 생성할 폴더 상위 폴더에서 아래 명령 수행(langchain은 생성할 프로젝트명)
+파워쉘 => poetry new langchain
+
+파워쉘에서 생성된 langchain 폴더로 이동 후 
+파워쉘 => poetry install
+
+파워쉘 => poetry env use python3.11  => 결과 없으면 아래 수행
+명령 프롬프트 => where python 찾은 경로를 복사
+찾은 경로 => C:\Users\user\AppData\Local\Programs\Python\Python311\python.exe
+
+파워쉘 => poetry  env  use  C:\Users\user\AppData\Local\Programs\Python\Python311\python.exe
+
+파워쉘 => poetry env info
+
+교수님의 pyproject.toml 내용을 내 로컬 파일에 그대로 복사 => vs code에서 해도됨
+
+이전 프로젝트의 .env 파일 복사해서 langchain(프로젝트 폴더)에 붙여넣기 => vs code에서 해도됨
+
+vs code => data 폴더 생성 후 교수님의 리비안_KR.txt, 테슬라_KR.txt 붙여넣기
+
+교수님의 01_langchain_exam.ipynb 파일을 langchain(프로젝트 폴더)에 붙여넣기
+
+vs code에서 01_langchain_exam.ipynb을 열고 편집창 우측 상단의 '커널 선택' 클릭 후
+Python 선택 후 poetry install로 생성된 langchain-env-MRp9vN5r-py3.11 선택(MRp9vN5r => 설치된 컴 마다 다름. 본인 컴에 있는 것을 선택)
+
+이후 01_langchain_exam.ipynb를 하나씩 수행하면서 결과 확인
+
+docx2txt 추가
+파워쉘(관리자 권한) => 프로젝트 폴더(langchain)로 이동 후 poetry add docx2txt 
